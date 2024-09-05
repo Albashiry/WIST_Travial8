@@ -1,6 +1,6 @@
 const Statistics = () => {
   return (
-    <div>Statistics</div>
+    <div className="bg-black text-white-400">Statistics</div>
   );
 };
 export default Statistics;
