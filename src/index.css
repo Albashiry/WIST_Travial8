@@ -55,4 +55,34 @@
   .info-text {
     @apply font-monserrat text-slate-gray text-lg leading-7;
   }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+
+  .logo::before {
+    content: '';
+    width: 34.88px;
+    height: 33.75px;
+    position: absolute;
+    top: -3px;
+    left: -13px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+
+  .hero{
+    background-image: linear-gradient(174deg,
+    rgba(242, 244, 246, 1.0) 82%,
+    transparent 83%),
+    url("");
+  }
+
+  .active{
+    @apply bg-black text-white rounded-full; 
+  }
 }
