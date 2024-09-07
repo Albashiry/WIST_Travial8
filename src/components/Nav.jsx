@@ -3,7 +3,7 @@ import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="text-xs">
+    <header className="text-xs wide:w-full">
       <div className='flex-between sm:flex-col lg:flex-row gap-1 padding-x border border-b-slate-200 border-x-0'>
         {/* contact */}
         <div className='flex gap-4'>

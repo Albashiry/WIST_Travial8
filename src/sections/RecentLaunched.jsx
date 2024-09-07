@@ -4,7 +4,7 @@ import { CarCard } from "../components"
 
 const RecentLaunched = () => {
   return (<>
-    <div className="padding-x flex justify-between">
+    <div className="padding-x flex justify-between" id="recentLaunched">
       <div className="">
         <h2 className="text-4xl font-semibold my-6">Recent Launched Cars</h2>
         <p className="text-gray-400 font-semibold">The world's leading car brands</p>
