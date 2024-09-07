@@ -65,10 +65,9 @@ export const navLinks = [
   { href: '/contact', label: 'contact' },
 ];
 
-export const help = [
-  { href: '/tours', label: 'tours', active: 'active' },
-  { href: '/hotels', label: 'hotels', active: '' },
-  { href: '/tickets', label: 'tickets', active: '' },
-  { href: '/rental', label: 'rental', active: '' },
-  { href: '/activities', label: 'activities', active: '' },
+export const buttons = ['tours', 'hotels', 'tickets', 'rental', 'activities'];
+
+export const cars = [
+  {id: '1', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', size: '7 seats', price: '48.25'},
+  {},
 ];

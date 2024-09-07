@@ -69,20 +69,27 @@
     width: 34.88px;
     height: 33.75px;
     position: absolute;
-    top: -3px;
-    left: -13px;
+    top: 0px;
+    left: 0px;
     background-color: yellow;
     border-radius: 50%;
   }
 
   .hero{
     background-image: linear-gradient(174deg,
-    rgba(242, 244, 246, 1.0) 82%,
-    transparent 83%),
-    url("");
+    rgba(220, 220, 220, 0.8) 82%,
+    transparent 83%);
   }
 
   .active{
     @apply bg-black text-white rounded-full; 
+  }
+
+  .detail-section{
+    @apply capitalize lg:w-[25%] sm:w-full px-6;
+  }
+  
+  .detail-section:not(:last-of-type){
+    border-right: 1px solid rgba(128, 128, 128, 0.4);
   }
 }
