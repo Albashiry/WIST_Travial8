@@ -7,7 +7,7 @@ const App = () => (
     <section className="max-container hero">
       <Hero />
     </section>
-    <section className="max-container recentLaunched -my-5 padding">
+    <section className="max-container recentLaunched -my-5 padding bg-white z-20">
       <RecentLaunched />
     </section>
     <section className="bg-black text-white-400">

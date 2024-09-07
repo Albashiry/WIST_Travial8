@@ -68,6 +68,11 @@ export const navLinks = [
 export const buttons = ['tours', 'hotels', 'tickets', 'rental', 'activities'];
 
 export const cars = [
-  {id: '1', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', size: '7 seats', price: '48.25'},
-  {},
+  {id: '1', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', seats: '7 seats', price: '48.25'},
+  {id: '2', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', seats: '7 seats', price: '48.25'},
+  {id: '3', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', seats: '7 seats', price: '48.25'},
+  {id: '4', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', seats: '7 seats', price: '48.25'},
+  {id: '5', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', seats: '7 seats', price: '48.25'},
+  {id: '6', imgUrl: 'heroCar', rate: '4.96', reviews: '672', carName: 'California Sunset/Twilight Boat Cruise', place: 'Manchester, England', distance: '25100', engine: 'Automatic', fuel: 'Diesel', seats: '7 seats', price: '48.25'},
+
 ];

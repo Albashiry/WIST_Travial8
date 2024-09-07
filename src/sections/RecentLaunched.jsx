@@ -15,7 +15,7 @@ const RecentLaunched = () => {
       </div>
     </div>
 
-    <div className="flex flex-wrap gap-3">
+    <div className="flex flex-wrap gap-3 padding-y">
       {cars.map((item, index) => (
         <CarCard
           key={index}
@@ -28,7 +28,7 @@ const RecentLaunched = () => {
           distance={item.distance}
           engine={item.engine}
           fuel={item.fuel}
-          size={item.size}
+          seats={item.seats}
           price={item.price}
         />
       ))}
